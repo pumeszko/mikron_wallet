@@ -33,7 +33,7 @@ module.exports = (environment) => {
       'default-src': ["'none'"],
       'script-src': ["'self'", "'unsafe-eval'"],
       'font-src': ["'self'"],
-      'connect-src': ["'self'", 'https://api.coinmarketcap.com'],
+      'connect-src': ["'self'", 'https://mikron.io', 'https://api.coinmarketcap.com'],
       'img-src': ["'self'", 'data:'],
       'style-src': ["'self'", "'unsafe-inline'"],
       'media-src': ["'self'"],

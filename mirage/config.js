@@ -35,6 +35,9 @@ export default function () {
   // Electron proxy
   this.passthrough('https://localhost:17043/**');
 
+  // Mikron.io
+  this.passthrough('https://mikron.io/**');
+
   this.namespace = 'rpc';
 
   this.post('/', (schema, request) => {
